@@ -18,9 +18,10 @@ function App() {
       {/* <Parent movies='Borle Bhasiya pani me '/> */}
       {/* <ClassComponent/> */}
       <h1>Event Handeling</h1>
-      <button onClick={getalert}>Click Me</button><br/>
-      <input type="text" onChange={inputalert}/>
-      <h1 onMouseOver={getalert}>Hover Event </h1>
+      <button onClick={getalert} style={{color:'red',background:'green',margin:'20px',fontSize:'50px',borderRadius:'10px',fontWeight:'bold'}}>Click Me</button><br/>
+      <input type="text" onChange={inputalert} style={{fontSize:'30px'}}/>
+      {/* <h1 onMouseOver={getalert}>Hover Event </h1> */}
+      <h2 className='fh1'>Hello Rahul Kumar</h2>
     </div>
   );
 }

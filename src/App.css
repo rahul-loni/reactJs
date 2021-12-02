@@ -91,3 +91,18 @@ body {
   border: none;
   cursor: pointer;
 }
+
+h1{
+  color: #04AA6D;
+  background-color: #61dafb;
+}
+.fh1{
+  color: aqua;
+  background-color: black;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+}
